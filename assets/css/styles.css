@@ -1,0 +1,152 @@
+body{
+    background-image: url(../images/memphis-mini.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+
+    
+    /* max-width: 960px; */
+    
+}
+.box-set{
+    background-color: #fff;
+    border: 1px solid #777;
+    height: 100px;
+    /* position: absolute; */
+}
+
+main{
+    background-color: #fff;
+    /* background-image: url(../images/memphis-mini.png); */
+    border: 2px solid #ddd;
+    color: #777;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 20px auto;
+    max-width: 920px;
+    padding: 20px;
+    word-spacing: 1px;  
+}
+
+
+.headers{
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* .topNav{
+    padding: 60px 190px;
+} */
+
+h1{
+    background-color: #4aaaa5;
+    color: #fff;
+    float: left;
+    margin: 10px 200px 10px;
+    padding: 30px;
+    /* right: 20%;
+    bottom: 10%; */
+}
+
+nav{   
+    float: right; 
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    border-right: 1px solid #777;
+    display: inline;
+    padding: 0 40px;
+    
+}
+  
+  li:last-child {
+    border-right: none;
+  }
+
+main{
+    clear: both;
+}
+
+h2{
+    color: #4aaaa5;
+    border-bottom: 1px solid #777;
+}
+
+#bee{
+    float: left;
+    padding: 10px;
+}
+
+p{
+    word-spacing: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer{
+    background-color: #666;
+    color: #ddd;
+    border-top: 5px solid #4aaaa5;
+    padding: 30px 0 0;
+    text-align: center;
+}
+
+form{
+    background-color: #fff; 
+    margin: 20px auto;
+    max-width: 920px;
+    padding: 20px;
+}
+
+#name,
+input[type=email],
+#message{
+    padding: 10px 0;
+    width: 100%;
+}
+
+#message{
+    height: 100px;
+
+}
+input[type=submit]{
+    background-color: #4aaaa5;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+}
+
+.wrapper{
+    background-color: #fff;
+    border: 2px solid #ddd;
+    color: #777;
+    height: 500px;
+    margin: 20px auto;
+    max-width: 920px;
+    padding: 20px;
+
+}
+
+.container{
+    
+    position: relative;
+    float: left;
+    padding: 10px;
+
+}
+
+.portfolio{
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    padding: 5px 0;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+}
