@@ -1,31 +1,29 @@
 body{
     background-image: url(../images/memphis-mini.png);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 16px;
-
-    
-    /* max-width: 960px; */
-    
+    font-size: 16px;   
+    /* max-width: 960px; */  
 }
-.box-set{
+
+
+/* .box-set{
     background-color: #fff;
     border: 1px solid #777;
     height: 100px;
     /* position: absolute; */
-}
+/* } */
 
-main{
-    background-color: #fff;
+#main{
+    /* background-color: #fff; */
     /* background-image: url(../images/memphis-mini.png); */
-    border: 2px solid #ddd;
+    /* border: 2px solid #ddd; */
     color: #777;
     letter-spacing: 2px;
     line-height: 30px;
     margin: 20px auto;
-    max-width: 920px;
     padding: 20px;
-    word-spacing: 1px;  
-}
+    word-spacing: 1px;
+} 
 
 
 .headers{
@@ -33,29 +31,26 @@ main{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-/* .topNav{
-    padding: 60px 190px;
-} */
 
 h1{
     background-color: #4aaaa5;
     color: #fff;
     float: left;
-    margin: 10px 200px 10px;
-    padding: 30px;
+    margin: 10px 200px -20px;
+    padding: 10px;
     /* right: 20%;
     bottom: 10%; */
 }
 
-nav{   
+/* nav{   
     float: right; 
     margin-right: 200px;
     margin-top: 10px;
-}
+} */
 
-a{
+/* a{
     text-decoration: none;
-}
+} */
 
 li{
     border-right: 1px solid #777;
@@ -68,9 +63,9 @@ li{
     border-right: none;
   }
 
-main{
+/* main{
     clear: both;
-}
+} */
 
 h2{
     color: #4aaaa5;
@@ -79,16 +74,17 @@ h2{
 
 #bee{
     float: left;
-    padding: 10px;
+    padding: 10px 10px 0 0;
 }
 
 p{
     word-spacing: 10px;
-    padding: 10px;
+    /* padding: 10px; */
     margin: 10px;
 }
 
 footer{
+    clear: both;
     background-color: #666;
     color: #ddd;
     border-top: 5px solid #4aaaa5;
