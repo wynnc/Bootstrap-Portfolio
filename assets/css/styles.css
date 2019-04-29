@@ -101,15 +101,18 @@ input[type=submit]{
     background-color: #fff;
     border: 2px solid #ddd;
     color: #777;
-    float: left;
-    /* height: auto; */
+    /* float: left; */
+    height: 900px;
     margin: 20px auto;
     max-width: 920px;
     padding: 20px;
     /* margin: 0 auto; */
 
 }
-
+/* .img-full{
+    width: 100%;
+    height: auto;
+} */
 .card-container{
     margin-bottom: 24px;
 }
