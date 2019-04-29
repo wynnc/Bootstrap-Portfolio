@@ -7,51 +7,96 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Wynn Chaney</title>
-  <!-- Once a reset.css is used uncomment the following line to see how this stylesheet works-->
-  <!--Try enabling and then disabling it more than once.-->
-  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
 
-  <header class="box-set">
-    <h1 class="headers">Wynn Chaney</h1>
-    <nav>
-      <ul class="topNav">
-        <li id="topNav"><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="wrapper">
-    <!-- <main> -->
-    <h2 class="headers">Portfolio</h2>
-    <div class="container">
-      <img src="assets/images/200.png" alt="Placeholder">
-      <div class="portfolio">Project 1</div>
-    </div>
-    <div class="container">
-      <img src="assets/images/200.png" alt="Placeholder">
-      <div class="portfolio">Project 2</div>
-    </div>
-    <div class="container">
-      <img src="assets/images/200.png" alt="Placeholder">
-      <div class="portfolio">Project 3</div>
-    </div>
-    <div class="container">
-      <img src="assets/images/200.png" alt="Placeholder">
-      <div class="portfolio">Project 4</div>
-    </div>
-    <div class="container">
-      <img src="assets/images/200.png" alt="Placeholder">
-      <div class="portfolio">Project 5</div>
+  <div class="container-fluid">
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md">
+            <span class="float-left">
+              <h1 class="headers">Wynn Chaney</h1>
+            </span>
+          </div>
+          <div class="col-md">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About Me</a>
+              </li>
+              <li>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  
-  <footer>Copyright &copy</footer>
+
+  <div class="wrapper">
+    <div class="container">
+      <!-- <main> -->
+      <!-- <div class="card">
+      <div class="card-body"> -->
+      <h2 class="headers">Portfolio</h2>
+      <div class="row">
+        <div class="col-4">
+          <div class="container">
+            <img src="assets/images/200.png" alt="Placeholder">
+            <div class="portfolio">Project 1</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="container">
+            <img src="assets/images/200.png" alt="Placeholder">
+            <div class="portfolio">Project 2</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="container">
+            <img src="assets/images/200.png" alt="Placeholder">
+            <div class="portfolio">Project 3</div>
+          </div>
+        </div>
+
+
+        <div class="col-4">
+          <div class="container">
+            <img src="assets/images/200.png" alt="Placeholder">
+            <div class="portfolio">Project 4</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <div class="container">
+            <img src="assets/images/200.png" alt="Placeholder">
+            <div class="portfolio">Project 5</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </div>
+
+
+
+  <!-- </div> -->
+  <footer class="page-footer font-small #666">
+    <div class="footer-copyright text-center py-3">Copyright &copy</div>
+  </footer>
 </body>
 
 </html>
